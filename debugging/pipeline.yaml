@@ -1,0 +1,4 @@
+tasks:
+  - source: notebook.ipynb
+    product:
+      nb: output.ipynb

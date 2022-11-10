@@ -1,0 +1,5 @@
+memory-profiler
+ploomber
+ploomber-engine
+sklearn-evaluation
+scikit-learn

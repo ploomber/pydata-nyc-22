@@ -1,0 +1,6 @@
+tasks:
+  - source: notebook.ipynb
+    product:
+      nb: tmp.ipynb
+    papermill_params:
+      engine_name: profiling

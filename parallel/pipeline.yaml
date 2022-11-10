@@ -1,0 +1,14 @@
+executor: parallel
+
+tasks:
+  - source: fit.ipynb
+    name: fit-[[model_type]]-[[n_estimators]]-[[criterion]]-[[max_depth]]
+    static_analysis: disable
+    product:
+      nb: output/reports/model_type=[[model_type]]/n_estimators=[[n_estimators]]-criterion=[[criterion]]-max_depth=[[max_depth]].ipynb
+      model: output/models/model_type=[[model_type]]/n_estimators=[[n_estimators]]-criterion=[[criterion]]-max_depth=[[max_depth]].pickle
+    grid:
+      - model_type: [sklearn.ensemble.RandomForestClassifier]
+        n_estimators: [3, 5, 10, 15, 20]
+        criterion: [gini, entropy, log_loss]
+        max_depth: [5, 10, 100]
