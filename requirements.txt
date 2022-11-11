@@ -3,3 +3,7 @@ ploomber
 ploomber-engine
 sklearn-evaluation
 scikit-learn
+jupyterlab
+jupysql
+pandas
+debuglater[all]
