@@ -1,5 +1,7 @@
 # Improving Your Data Modeling Work Through Open-Source Software
 
+## Go to: https://github.com/ploomber/pydata-nyc-22
+
 PyData NYC 2022
 
 [Eduardo Blancas](https://www.linkedin.com/in/edublancas/) and [Ido Michael](https://www.linkedin.com/in/ido-michael/) from [Ploomber](https://ploomber.io/)
