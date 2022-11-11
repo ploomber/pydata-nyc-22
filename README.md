@@ -15,7 +15,7 @@ git clone https://github.com/ploomber/pydata-nyc-22
 cd pydata-nyc-22
 pip install -r requirements.txt
 
-jupyterlab
+jupyter lab
 ```
 
 Open `workshop.ipynb`
